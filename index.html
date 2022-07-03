@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Tienda</title>
+
+    <!-- SCRIPTS -->
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--<script defer src="js/main.js"></script> -->
+    
+    <script defer src="js/shop.js"></script>
+
+</head>
+
+<body>
+
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="" class="nav__logo text_to_uniform">Smart Tienda</a>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list grid">
+            </ul>
+        </div>
+        <div class="nav_login">
+          <a href="" class="nav__link text_to_uniform">
+            Iniciar Sesion
+          </a>
+        </div>
+    </nav>
+</header>
+
+<section class="shop section" id="home">
+    <div class="shop__container container">
+
+        <div class="shop__header">
+            <div class="shop__title"> Tienda </div>
+            <div class="shop__subtitle"> Aquí encontrarás lo que necesitas </div>
+            <hr>
+        </div>
+
+        <div class="items">
+
+            <div class="item">
+                    <h3 class="item-title">celular1</h3>
+                    <img class="item-image " src="./img/samsung_galaxy_s22.jpg">
+
+                    <div class="item-details">
+                        <h4 class="item-price">130$</h4>
+                        <div class="addToCart button"> AÑADIR AL CARRITO</div>
+                    </div>
+            </div>
+
+            <div class="item">
+                <h3 class="item-title">celular2</h3>
+                <img class="item-image" src="./img/samsung_galaxy_s22.jpg">
+
+                <div class="item-details">
+                    <h4 class="item-price ">135$</h4>
+                    <div class="addToCart button "> AÑADIR AL CARRITO</div>
+                </div>
+            </div>
+
+            <div class="item">
+                <h3 class="item-title">celular3</h3>
+                <img class="item-image" src="./img/samsung_galaxy_s22.jpg">
+
+                <div class="item-details">
+                    <h4 class="item-price ">10$</h4>
+                    <div class="addToCart button "> AÑADIR AL CARRITO</div>
+                </div>
+            </div>
+        </div>
+
+    </div>  
+</section>
+
+<section class="shopping__cart section">
+    <div class="shopping__container container">
+
+        <div class="shopping__header">
+            <div class="shopping__title"> Carrito </div>
+            <hr>
+        </div>
+        
+        <div>
+        <table class="table__shopping_car">
+            <tbody class="shoppingCartItemsContainer">
+                <tr class="table__shoppingcard_header" >
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Eliminar</th>
+                </tr>
+            </tbody>
+
+            
+        </table>
+        </div>
+        <hr>
+
+        <div class="table__shoppingcard_footer">
+            <div class="price">
+            <div class="total">TOTAL: </div>
+            <div class="total-price shoppingCartTotal"> 0 </div>
+            </div>
+            <div class="buy_button"><button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                data-target="#comprarModal">Comprar</button></div>
+        </div>
+    </div>
+
+
+
+    </div>
+</section>
+
+
+
+
+    <footer class="footer">
+        <p class="footer__text">Derechos reservados por Smart Tienda</p>
+    </footer>
+  
+
+</body>
+
+</html>

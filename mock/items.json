@@ -1,0 +1,33 @@
+[
+    {
+    "id": "1ec58676- 898f- 4fa5-9fcf-1f386dda4724",
+    "title" : "Monitor Xiaomi",
+    "price" : "129.990",
+    "image" : "monitor_xiaomi.jpg" 
+},
+    {
+    "id": "1ec58676- 898f- 4fa5-9fcf-1f386dda4725",
+    "title" : "Silla T-Dagger",
+    "price" : "79.990",
+    "image" : "silla_t-dagger.jpg" 
+},
+    {
+    "id": "1ec58676- 898f- 4fa5-9fcf-1f386dda4726",
+    "title" : "Smartwatch Xiaomi",
+    "price" : "59.990",
+    "image" : "smartwatch_xiaomis1.jpg" 
+},
+    {
+    "id": "1ec58676- 898f- 4fa5-9fcf-1f386dda4727",
+    "title" : "Teclado Kurama 552",
+    "price" : "49.990",
+    "image" : "teclado-kurama.jpg" 
+},
+    {
+    "id": "1ec58676- 898f- 4fa5-9fcf-1f386dda4728",
+    "title" : "Samsung Galaxy S22",
+    "price" : "599.990",
+    "image" : "samsung_galaxy_s22.jpg"
+}
+]
+
